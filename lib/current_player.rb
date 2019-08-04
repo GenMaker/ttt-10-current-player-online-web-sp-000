@@ -21,9 +21,9 @@ return counter
     #else
       #return "O"
     #end
-    if counter.even?
-      return "X"
-    else
+    if counter.odd?
       return "O"
+    else
+      return "X"
     end
   end
