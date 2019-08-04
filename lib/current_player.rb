@@ -21,9 +21,10 @@ return counter
     #else
       #return "O"
     #end
-    if counter.odd?
-      return "O"
-    else
-      return "X"
-    end
+    #if counter.odd?
+      #return "O"
+  #  else
+      #return "X"
+    #end
+    
   end
