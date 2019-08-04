@@ -1,5 +1,5 @@
 #board
-board = ["X"," "," ","0"," "," "," "," ","X"]
+board = ["X"," "," ","O"," "," "," "," ","X"]
 # create turn counter
 def turn_count (board)
   counter = 0
