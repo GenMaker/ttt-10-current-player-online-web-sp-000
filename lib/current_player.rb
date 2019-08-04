@@ -26,5 +26,5 @@ return counter
   #  else
       #return "X"
     #end
-    counter =
+    counter = counter % 2 == 0? "X" : "O"
   end
