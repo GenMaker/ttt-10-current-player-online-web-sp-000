@@ -26,5 +26,7 @@ return counter
   #  else
       #return "X"
     #end
-    counter = counter % 2 == 0? "X" : "O"
+    who_turn = counter % 2 == 0? "X" : "O"
+    return who_turn
+    
   end
