@@ -26,5 +26,5 @@ return counter
   #  else
       #return "X"
     #end
-    
+    counter =
   end
