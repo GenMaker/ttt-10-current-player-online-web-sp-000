@@ -18,8 +18,8 @@ return counter
     counter = turn_count(board)
 
     if counter % 2 == 0
-      return "O"
-    else
       return "X"
+    else
+      return "O"
     end
   end
