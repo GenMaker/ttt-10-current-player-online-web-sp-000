@@ -16,8 +16,8 @@ return counter
 
   def current_player(counter)
     if counter % 2 == 0
-      return "X"
-    else
       return "O"
+    else
+      return "X"
     end
   end
